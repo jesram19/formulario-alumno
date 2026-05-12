@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.contenedor{
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}   
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.listaAlumnos{
+    margin-top:25px;
+}
+
+.listaAlumnos ul{
+    list-style: none;
+    padding: 0;
+}
+
+.listaAlumnos li{
+    background-color: #e5e7eb;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-borrar{
+    margin-top: 10px;
+    background-color: red;
+}
+
+.btn-borrar:hover{
+    background-color: darkred;
+}
