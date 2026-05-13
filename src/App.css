@@ -62,3 +62,12 @@ button{
 .btn-borrar:hover{
     background-color: darkred;
 }
+
+.btn-editar{
+    margin-top: 10px;
+    background-color: #2563eb;
+}
+
+.btn-editar:hover{
+    background-color: #1d4ed8;
+}
